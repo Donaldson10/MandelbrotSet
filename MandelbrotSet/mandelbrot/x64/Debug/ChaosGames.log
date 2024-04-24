@@ -1,0 +1,100 @@
+﻿  ComplexPlane.cpp
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(11,52): warning C4244: '=': conversion from 'unsigned int' to 'float', possible loss of data
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(47,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(48,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(49,19): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(49,19): warning C4244:         with
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(49,19): warning C4244:         [
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(49,19): warning C4244:             T=float
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(49,19): warning C4244:         ]
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(50,19): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(50,19): warning C4244:         with
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(50,19): warning C4244:         [
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(50,19): warning C4244:             T=float
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(50,19): warning C4244:         ]
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(56,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(57,8): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(58,19): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(58,19): warning C4244:         with
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(58,19): warning C4244:         [
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(58,19): warning C4244:             T=float
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(58,19): warning C4244:         ]
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(59,19): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(59,19): warning C4244:         with
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(59,19): warning C4244:         [
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(59,19): warning C4244:             T=float
+C:\Users\yegor\source\repos\ChaosGames\ComplexPlane.cpp(59,19): warning C4244:         ]
+  main.cpp
+C:\Users\yegor\source\repos\ChaosGames\main.cpp(57,10): error C2661: 'sf::Image::create': no overloaded function takes 1 arguments
+  C:\Users\yegor\source\repos\ChaosGames\main.cpp(57,10):
+  while trying to match the argument list '(initializer list)'
+  
+C:\Users\yegor\source\repos\ChaosGames\main.cpp(67,28): error C2065: 'FONT_PATH': undeclared identifier
+C:\Users\yegor\source\repos\ChaosGames\main.cpp(67,45): error C3083: 'filesystem': the symbol to the left of a '::' must be a type
+C:\Users\yegor\source\repos\ChaosGames\main.cpp(67,57): error C2039: 'path': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\thread(37,1):
+  see declaration of 'std'
+  
+C:\Users\yegor\source\repos\ChaosGames\main.cpp(67,57): error C3861: 'path': identifier not found
+C:\Users\yegor\source\repos\ChaosGames\main.cpp(70,25): error C2440: '<function-style-cast>': cannot convert from 'initializer list' to 'sf::Text'
+  C:\Users\yegor\source\repos\ChaosGames\main.cpp(70,25):
+  'sf::Text::Text': no overloaded function could convert all the argument types
+  	C:\SFML\include\SFML\Graphics\Text.hpp(88,5):
+  	could be 'sf::Text::Text(const sf::String &,const sf::Font &,unsigned int)'
+  		C:\Users\yegor\source\repos\ChaosGames\main.cpp(70,25):
+  		'sf::Text::Text(const sf::String &,const sf::Font &,unsigned int)': cannot convert argument 1 from 'sf::Font' to 'const sf::String &'
+  			C:\Users\yegor\source\repos\ChaosGames\main.cpp(70,26):
+  			Reason: cannot convert from 'sf::Font' to 'const sf::String'
+  			C:\Users\yegor\source\repos\ChaosGames\main.cpp(70,26):
+  			No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+  	C:\Users\yegor\source\repos\ChaosGames\main.cpp(70,25):
+  	while trying to match the argument list '(sf::Font, const char [1], int)'
+  
+C:\Users\yegor\source\repos\ChaosGames\main.cpp(71,5): error C3536: 'text': cannot be used before it is initialized
+C:\Users\yegor\source\repos\ChaosGames\main.cpp(80,26): error C2660: 'sf::Image::setPixel': function does not take 2 arguments
+  C:\SFML\include\SFML\Graphics\Image.hpp(237,10):
+  see declaration of 'sf::Image::setPixel'
+  C:\Users\yegor\source\repos\ChaosGames\main.cpp(80,26):
+  while trying to match the argument list '(initializer list, sf::Color)'
+  
+C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,15): error C2665: 'sf::RenderTarget::draw': no overloaded function could convert all the argument types
+  C:\SFML\include\SFML\Graphics\RenderTarget.hpp(258,10):
+  could be 'void sf::RenderTarget::draw(const sf::VertexBuffer &,const sf::RenderStates &)'
+  	C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,15):
+  	'void sf::RenderTarget::draw(const sf::VertexBuffer &,const sf::RenderStates &)': cannot convert argument 1 from 'int' to 'const sf::VertexBuffer &'
+  		C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,21):
+  		Reason: cannot convert from 'int' to 'const sf::VertexBuffer'
+  		C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,21):
+  		'sf::VertexBuffer::VertexBuffer': no overloaded function could convert all the argument types
+  			C:\SFML\include\SFML\Graphics\VertexBuffer.hpp(113,5):
+  			could be 'sf::VertexBuffer::VertexBuffer(const sf::VertexBuffer &)'
+  				C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,21):
+  				'sf::VertexBuffer::VertexBuffer(const sf::VertexBuffer &)': cannot convert argument 1 from 'int' to 'const sf::VertexBuffer &'
+  					C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,21):
+  					Reason: cannot convert from 'int' to 'const sf::VertexBuffer'
+  					C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,21):
+  					Conversion requires a second user-defined-conversion operator or constructor
+  			C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,21):
+  			while trying to match the argument list '(int)'
+  C:\SFML\include\SFML\Graphics\RenderTarget.hpp(237,10):
+  or       'void sf::RenderTarget::draw(const sf::Drawable &,const sf::RenderStates &)'
+  	C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,15):
+  	'void sf::RenderTarget::draw(const sf::Drawable &,const sf::RenderStates &)': cannot convert argument 1 from 'int' to 'const sf::Drawable &'
+  		C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,21):
+  		Reason: cannot convert from 'int' to 'const sf::Drawable'
+  		C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,21):
+  		'sf::Drawable::Drawable': no overloaded function could convert all the argument types
+  			C:\SFML\include\SFML\Graphics\Drawable.hpp(70,1):
+  			could be 'sf::Drawable::Drawable(const sf::Drawable &)'
+  				C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,21):
+  				'sf::Drawable::Drawable(const sf::Drawable &)': cannot convert argument 1 from 'int' to 'const sf::Drawable &'
+  					C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,21):
+  					Reason: cannot convert from 'int' to 'const sf::Drawable'
+  					C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,21):
+  					Conversion requires a second user-defined-conversion operator or constructor
+  			C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,21):
+  			while trying to match the argument list '(int)'
+  C:\Users\yegor\source\repos\ChaosGames\main.cpp(169,15):
+  while trying to match the argument list '(int)'
+  
+  Generating Code...
